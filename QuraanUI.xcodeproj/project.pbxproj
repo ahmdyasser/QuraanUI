@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9675572826981DD8004012FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572726981DD8004012FF /* AppDelegate.swift */; };
+		9675572A26981DD8004012FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572926981DD8004012FF /* SceneDelegate.swift */; };
+		9675572C26981DD8004012FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572B26981DD8004012FF /* ContentView.swift */; };
+		9675572F26981DD8004012FF /* QuraanUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9675572D26981DD8004012FF /* QuraanUI.xcdatamodeld */; };
+		9675573126981DE4004012FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9675573026981DE4004012FF /* Assets.xcassets */; };
+		9675573426981DE4004012FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9675573326981DE4004012FF /* Preview Assets.xcassets */; };
+		9675573726981DE4004012FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9675573526981DE4004012FF /* LaunchScreen.storyboard */; };
+		9675574226981DE4004012FF /* QuraanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675574126981DE4004012FF /* QuraanUITests.swift */; };
+		9675574D26981DE5004012FF /* QuraanUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675574C26981DE5004012FF /* QuraanUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9675573E26981DE4004012FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9675571C26981DD7004012FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9675572326981DD7004012FF;
+			remoteInfo = QuraanUI;
+		};
+		9675574926981DE5004012FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9675571C26981DD7004012FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9675572326981DD7004012FF;
+			remoteInfo = QuraanUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9675572426981DD8004012FF /* QuraanUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuraanUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9675572726981DD8004012FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9675572926981DD8004012FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9675572B26981DD8004012FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9675572E26981DD8004012FF /* QuraanUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuraanUI.xcdatamodel; sourceTree = "<group>"; };
+		9675573026981DE4004012FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9675573326981DE4004012FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9675573626981DE4004012FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9675573826981DE4004012FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9675573D26981DE4004012FF /* QuraanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuraanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9675574126981DE4004012FF /* QuraanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuraanUITests.swift; sourceTree = "<group>"; };
+		9675574326981DE4004012FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9675574826981DE5004012FF /* QuraanUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuraanUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9675574C26981DE5004012FF /* QuraanUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuraanUIUITests.swift; sourceTree = "<group>"; };
+		9675574E26981DE5004012FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9675572126981DD7004012FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675573A26981DE4004012FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675574526981DE5004012FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9675571B26981DD7004012FF = {
+			isa = PBXGroup;
+			children = (
+				9675572626981DD8004012FF /* QuraanUI */,
+				9675574026981DE4004012FF /* QuraanUITests */,
+				9675574B26981DE5004012FF /* QuraanUIUITests */,
+				9675572526981DD8004012FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9675572526981DD8004012FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9675572426981DD8004012FF /* QuraanUI.app */,
+				9675573D26981DE4004012FF /* QuraanUITests.xctest */,
+				9675574826981DE5004012FF /* QuraanUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9675572626981DD8004012FF /* QuraanUI */ = {
+			isa = PBXGroup;
+			children = (
+				9675572726981DD8004012FF /* AppDelegate.swift */,
+				9675572926981DD8004012FF /* SceneDelegate.swift */,
+				9675572B26981DD8004012FF /* ContentView.swift */,
+				9675573026981DE4004012FF /* Assets.xcassets */,
+				9675573526981DE4004012FF /* LaunchScreen.storyboard */,
+				9675573826981DE4004012FF /* Info.plist */,
+				9675572D26981DD8004012FF /* QuraanUI.xcdatamodeld */,
+				9675573226981DE4004012FF /* Preview Content */,
+			);
+			path = QuraanUI;
+			sourceTree = "<group>";
+		};
+		9675573226981DE4004012FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9675573326981DE4004012FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9675574026981DE4004012FF /* QuraanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9675574126981DE4004012FF /* QuraanUITests.swift */,
+				9675574326981DE4004012FF /* Info.plist */,
+			);
+			path = QuraanUITests;
+			sourceTree = "<group>";
+		};
+		9675574B26981DE5004012FF /* QuraanUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9675574C26981DE5004012FF /* QuraanUIUITests.swift */,
+				9675574E26981DE5004012FF /* Info.plist */,
+			);
+			path = QuraanUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9675572326981DD7004012FF /* QuraanUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9675575126981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUI" */;
+			buildPhases = (
+				9675572026981DD7004012FF /* Sources */,
+				9675572126981DD7004012FF /* Frameworks */,
+				9675572226981DD7004012FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuraanUI;
+			productName = QuraanUI;
+			productReference = 9675572426981DD8004012FF /* QuraanUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9675573C26981DE4004012FF /* QuraanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9675575426981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUITests" */;
+			buildPhases = (
+				9675573926981DE4004012FF /* Sources */,
+				9675573A26981DE4004012FF /* Frameworks */,
+				9675573B26981DE4004012FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9675573F26981DE4004012FF /* PBXTargetDependency */,
+			);
+			name = QuraanUITests;
+			productName = QuraanUITests;
+			productReference = 9675573D26981DE4004012FF /* QuraanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9675574726981DE5004012FF /* QuraanUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9675575726981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUIUITests" */;
+			buildPhases = (
+				9675574426981DE5004012FF /* Sources */,
+				9675574526981DE5004012FF /* Frameworks */,
+				9675574626981DE5004012FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9675574A26981DE5004012FF /* PBXTargetDependency */,
+			);
+			name = QuraanUIUITests;
+			productName = QuraanUIUITests;
+			productReference = 9675574826981DE5004012FF /* QuraanUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9675571C26981DD7004012FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9675572326981DD7004012FF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9675573C26981DE4004012FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9675572326981DD7004012FF;
+					};
+					9675574726981DE5004012FF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9675572326981DD7004012FF;
+					};
+				};
+			};
+			buildConfigurationList = 9675571F26981DD7004012FF /* Build configuration list for PBXProject "QuraanUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9675571B26981DD7004012FF;
+			productRefGroup = 9675572526981DD8004012FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9675572326981DD7004012FF /* QuraanUI */,
+				9675573C26981DE4004012FF /* QuraanUITests */,
+				9675574726981DE5004012FF /* QuraanUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9675572226981DD7004012FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675573726981DE4004012FF /* LaunchScreen.storyboard in Resources */,
+				9675573426981DE4004012FF /* Preview Assets.xcassets in Resources */,
+				9675573126981DE4004012FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675573B26981DE4004012FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675574626981DE5004012FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9675572026981DD7004012FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675572826981DD8004012FF /* AppDelegate.swift in Sources */,
+				9675572A26981DD8004012FF /* SceneDelegate.swift in Sources */,
+				9675572C26981DD8004012FF /* ContentView.swift in Sources */,
+				9675572F26981DD8004012FF /* QuraanUI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675573926981DE4004012FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675574226981DE4004012FF /* QuraanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9675574426981DE5004012FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675574D26981DE5004012FF /* QuraanUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9675573F26981DE4004012FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9675572326981DD7004012FF /* QuraanUI */;
+			targetProxy = 9675573E26981DE4004012FF /* PBXContainerItemProxy */;
+		};
+		9675574A26981DE5004012FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9675572326981DD7004012FF /* QuraanUI */;
+			targetProxy = 9675574926981DE5004012FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9675573526981DE4004012FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9675573626981DE4004012FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9675574F26981DE5004012FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9675575026981DE5004012FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9675575226981DE5004012FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuraanUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuraanUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9675575326981DE5004012FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"QuraanUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QuraanUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9675575526981DE5004012FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				INFOPLIST_FILE = QuraanUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuraanUI.app/QuraanUI";
+			};
+			name = Debug;
+		};
+		9675575626981DE5004012FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				INFOPLIST_FILE = QuraanUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuraanUI.app/QuraanUI";
+			};
+			name = Release;
+		};
+		9675575826981DE5004012FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				INFOPLIST_FILE = QuraanUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuraanUI;
+			};
+			name = Debug;
+		};
+		9675575926981DE5004012FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G5MP9XUH9;
+				INFOPLIST_FILE = QuraanUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadyasser.QuraanUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuraanUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9675571F26981DD7004012FF /* Build configuration list for PBXProject "QuraanUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675574F26981DE5004012FF /* Debug */,
+				9675575026981DE5004012FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9675575126981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675575226981DE5004012FF /* Debug */,
+				9675575326981DE5004012FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9675575426981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675575526981DE5004012FF /* Debug */,
+				9675575626981DE5004012FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9675575726981DE5004012FF /* Build configuration list for PBXNativeTarget "QuraanUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9675575826981DE5004012FF /* Debug */,
+				9675575926981DE5004012FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9675572D26981DD8004012FF /* QuraanUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9675572E26981DD8004012FF /* QuraanUI.xcdatamodel */,
+			);
+			currentVersion = 9675572E26981DD8004012FF /* QuraanUI.xcdatamodel */;
+			path = QuraanUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9675571C26981DD7004012FF /* Project object */;
+}
