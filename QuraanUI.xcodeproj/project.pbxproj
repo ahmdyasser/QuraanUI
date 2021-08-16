@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961A77A52699325C00F8B1D3 /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961A77A42699325C00F8B1D3 /* JetBrainsMono-Regular.ttf */; };
+		961A77B3269932BE00F8B1D3 /* _PDMS_Saleem_QuranFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 961A77B2269932BE00F8B1D3 /* _PDMS_Saleem_QuranFont.ttf */; };
+		96534092269A34B3007D9F77 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96534091269A34B3007D9F77 /* SplashView.swift */; };
+		965340AC269A379C007D9F77 /* hafs.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 965340AB269A379C007D9F77 /* hafs.ttf */; };
+		965340B1269A3811007D9F77 /* Othmani.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 965340B0269A3811007D9F77 /* Othmani.ttf */; };
+		965340B9269A483E007D9F77 /* Amiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9653407D269A2B52007D9F77 /* Amiri-Regular.ttf */; };
 		9675572826981DD8004012FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572726981DD8004012FF /* AppDelegate.swift */; };
 		9675572A26981DD8004012FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572926981DD8004012FF /* SceneDelegate.swift */; };
 		9675572C26981DD8004012FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675572B26981DD8004012FF /* ContentView.swift */; };
@@ -16,6 +22,8 @@
 		9675573726981DE4004012FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9675573526981DE4004012FF /* LaunchScreen.storyboard */; };
 		9675574226981DE4004012FF /* QuraanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675574126981DE4004012FF /* QuraanUITests.swift */; };
 		9675574D26981DE5004012FF /* QuraanUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675574C26981DE5004012FF /* QuraanUIUITests.swift */; };
+		9675575E26981E2B004012FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9675575D26981E2B004012FF /* ViewController.swift */; };
+		96E597872699F91800D41A69 /* alfont_com_IBMPlexArabic-Text-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E597862699F91800D41A69 /* alfont_com_IBMPlexArabic-Text-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961A77A42699325C00F8B1D3 /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; };
+		961A77B2269932BE00F8B1D3 /* _PDMS_Saleem_QuranFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = _PDMS_Saleem_QuranFont.ttf; sourceTree = "<group>"; };
+		9653407D269A2B52007D9F77 /* Amiri-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amiri-Regular.ttf"; sourceTree = "<group>"; };
+		96534091269A34B3007D9F77 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		965340AB269A379C007D9F77 /* hafs.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hafs.ttf; sourceTree = "<group>"; };
+		965340B0269A3811007D9F77 /* Othmani.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Othmani.ttf; sourceTree = "<group>"; };
+		965340B5269A47C7007D9F77 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9675572426981DD8004012FF /* QuraanUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuraanUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9675572726981DD8004012FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9675572926981DD8004012FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +66,8 @@
 		9675574826981DE5004012FF /* QuraanUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuraanUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9675574C26981DE5004012FF /* QuraanUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuraanUIUITests.swift; sourceTree = "<group>"; };
 		9675574E26981DE5004012FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9675575D26981E2B004012FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96E597862699F91800D41A69 /* alfont_com_IBMPlexArabic-Text-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alfont_com_IBMPlexArabic-Text-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9653407C269A2B47007D9F77 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9653407D269A2B52007D9F77 /* Amiri-Regular.ttf */,
+				96E597862699F91800D41A69 /* alfont_com_IBMPlexArabic-Text-1.ttf */,
+				965340B0269A3811007D9F77 /* Othmani.ttf */,
+				965340AB269A379C007D9F77 /* hafs.ttf */,
+				961A77B2269932BE00F8B1D3 /* _PDMS_Saleem_QuranFont.ttf */,
+				961A77A42699325C00F8B1D3 /* JetBrainsMono-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		9675571B26981DD7004012FF = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +134,12 @@
 				9675572726981DD8004012FF /* AppDelegate.swift */,
 				9675572926981DD8004012FF /* SceneDelegate.swift */,
 				9675572B26981DD8004012FF /* ContentView.swift */,
+				96534091269A34B3007D9F77 /* SplashView.swift */,
+				9675575D26981E2B004012FF /* ViewController.swift */,
 				9675573026981DE4004012FF /* Assets.xcassets */,
 				9675573526981DE4004012FF /* LaunchScreen.storyboard */,
 				9675573826981DE4004012FF /* Info.plist */,
+				9653407C269A2B47007D9F77 /* fonts */,
 				9675572D26981DD8004012FF /* QuraanUI.xcdatamodeld */,
 				9675573226981DE4004012FF /* Preview Content */,
 			);
@@ -224,6 +257,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 9675571B26981DD7004012FF;
 			productRefGroup = 9675572526981DD8004012FF /* Products */;
@@ -242,9 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965340B9269A483E007D9F77 /* Amiri-Regular.ttf in Resources */,
+				961A77B3269932BE00F8B1D3 /* _PDMS_Saleem_QuranFont.ttf in Resources */,
 				9675573726981DE4004012FF /* LaunchScreen.storyboard in Resources */,
 				9675573426981DE4004012FF /* Preview Assets.xcassets in Resources */,
+				965340AC269A379C007D9F77 /* hafs.ttf in Resources */,
 				9675573126981DE4004012FF /* Assets.xcassets in Resources */,
+				961A77A52699325C00F8B1D3 /* JetBrainsMono-Regular.ttf in Resources */,
+				96E597872699F91800D41A69 /* alfont_com_IBMPlexArabic-Text-1.ttf in Resources */,
+				965340B1269A3811007D9F77 /* Othmani.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9675575E26981E2B004012FF /* ViewController.swift in Sources */,
 				9675572826981DD8004012FF /* AppDelegate.swift in Sources */,
 				9675572A26981DD8004012FF /* SceneDelegate.swift in Sources */,
 				9675572C26981DD8004012FF /* ContentView.swift in Sources */,
 				9675572F26981DD8004012FF /* QuraanUI.xcdatamodeld in Sources */,
+				96534092269A34B3007D9F77 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +354,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9675573626981DE4004012FF /* Base */,
+				965340B5269A47C7007D9F77 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

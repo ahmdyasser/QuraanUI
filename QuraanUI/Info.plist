@@ -20,6 +20,13 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>_PDMS_Saleem_QuranFont.ttf</string>
+		<string>Amiri-Regular.ttf</string>
+		<string>JetBrainsMono-Regular.ttf</string>
+		<string>hafs.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
